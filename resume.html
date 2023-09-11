@@ -1,0 +1,532 @@
+<!-- /  this  is  known as doccument type decloration informs the web browser that the document is written in HTML5, and This declaration 
+ensures that the browser interprets and renders the document correctly according to the rules and standards of that HTML version. 
+It's an essential part of creating well-structured and standards-compliant web pages. -->
+<!DOCTYPE html>
+
+<!-- //doccument begins and ends with html tag -->
+<html>
+  <!-- //is used to include meta-information and resources related to the webpage, provides essential information and settings for the 
+browser and search engines. -->
+  <head>
+    <!-- used to set the title of the webpage. -->
+    <title>rushika resume</title>
+
+    <!-- // It tells the browser that the document uses the UTF-8 character encoding,
+        which is a widely accepted encoding for handling text in various languages and character sets.
+        This ensures that special characters and international text are displayed correctly in the browser. -->
+    <meta charset="UTF-8" />
+
+    <!-- //responsive web design, and it helps ensure that web pages adapt well to various screen sizes and orientations -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      /* style tag is used for decoration puropse and this type of styling is known as intwernal styling */
+      .header {
+        display: flex;
+        background-color: #344e6c;
+        color: white;
+        padding: 20px;
+      }
+      .name {
+        font-size: 35px;
+        padding-bottom: 20px;
+      }
+      .resumeBody {
+        margin-left: 20%;
+        margin-right: 20%;
+        /* border: 1px solid #344e6c; */
+        box-shadow: 0 0 5px 1px lightgrey;
+      }
+      .profilePic {
+        padding-left: 10px;
+      }
+      .contactDetails {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #243c54;
+      }
+      .mailDetails,
+      .githubDetails {
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+      }
+      .phoneDetails,
+      .linkedinDetails {
+        display: flex;
+        align-items: center;
+      }
+      .mainDetails {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .heading {
+        color: #1aa09c;
+        font-size: 20px;
+        text-decoration: underline;
+        /* text-decoration-thickness it provides specific thickness to the underline */
+        text-decoration-thickness: 2px;
+        /* text-underline-offset provides a specific distance from the word to underline */
+        text-underline-offset: 5px;
+      }
+      .subheading {
+        padding-top: 10px;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      #importantPoint {
+        color: #1aa09c;
+        padding-top: 2px;
+        padding-bottom: 3px;
+        display: inline;
+      }
+      .specification {
+        padding-top: 3px;
+        padding-bottom: 0px;
+      }
+      body {
+        width: 100%;
+        height: 100%;
+      }
+      .rightDetails,
+      .leftDetails {
+        width: 50%;
+        /* border: 1px solid black; */
+      }
+      .leftDetailsDisc {
+        font-size: 12px;
+        padding-top: 3px;
+        color: grey;
+      }
+      .experience {
+        font-size: 13.5px;
+        padding-bottom: 5px;
+      }
+      .leftDetails {
+        padding-right: 10px;
+      }
+      .rightDetails {
+        padding-left: 10px;
+      }
+      .skillsList {
+        padding-top: 5px;
+        padding-bottom: 1px;
+        
+
+      }
+      .sillsSet{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        padding-top: 5px;
+        
+
+        
+      }
+      .skill{
+        padding: 10px;
+        background-color: grey;
+        color: white;
+        margin: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        
+      }
+      .intrestSet{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        padding-top: 15px;
+
+      }
+      .intrest{
+        padding: 10px;
+        border: 1px solid #1aa09c;
+        margin: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+      .vD{
+  border-left: 1px solid lightgray;
+  
+}
+    </style>
+  </head>
+  <body>
+    <div class="resumeBody">
+      <!-- it contaions basic details like name,pic, moto  -->
+      <div class="header">
+        <div>
+          <div class="name">Rushika shreya Devarakonda</div>
+          <div>
+            Front-End Web Developer with High Vision and Forward-Thinking.
+            Innovative use of Technology, Effective Problem Solving Skills,
+            Outstanding Interpersonal Skills with ability to work independently
+            as well as within a team environment.
+          </div>
+        </div>
+        <div class="profilePic">
+          <img
+            src="profile.jpg"
+            alt="rushika pic"
+            width="80px"
+            height="100px"
+          />
+        </div>
+      </div>
+      <!-- it contaions their contacting details -->
+      <div class="contactDetails">
+        <div>
+          <div class="mailDetails">
+            <img
+              src="https://cdn4.vectorstock.com/i/1000x1000/20/63/email-icon-black-and-white-mail-vector-24922063.jpg"
+              alt="email"
+              width="20px"
+              height="20px"
+            />
+            <a
+              href="devarakondarushikashreya123@gmail.com"
+              style="color: white; padding-left: 10px; text-decoration: none"
+              >devarakondarushikashreya123@gmail.com</a
+            >
+          </div>
+          <div class="phoneDetails">
+            <img src="phone1.png" alt="phone" width="20px" height="20px" />
+            <a
+              href="9059378356"
+              style="color: white; padding-left: 10px; text-decoration: none"
+              >9059378356</a
+            >
+          </div>
+        </div>
+        <div>
+          <div class="githubDetails">
+            <img
+              src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+              alt="github"
+              width="20px"
+              height="20px"
+            />
+            <a
+              href="https://github.com/Rushikashreya123"
+              style="color: white; padding-left: 10px; text-decoration: none"
+              >https://github.com/Rushikashreya123</a
+            >
+          </div>
+
+          <div class="linkedinDetails">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTessvQgdzcGj-9cDXu17gnAwvs4L9kEciahLtC8YdXBw&s"
+              alt="linkedin"
+              width="20px"
+              height="20px"
+            />
+            <a
+              href="https://www.linkedin.com/in/rushika-shreya-devarakonda-75a5bb235/"
+              style="color: white; padding-left: 10px; text-decoration: none"
+              >https://www.linkedin.com/in/rushika-shreya-devarakonda-75a5bb235/</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- main content of the resume -->
+      <div class="mainDetails">
+        <!-- left part of the main body -->
+        <div class="leftDetails">
+          <div>
+            <div class="heading"><b>WORK EXPERIENCE</b></div>
+            <div class="subheading"><b>Internship</b></div>
+            <div class="specification">Divami Design Labs Pvt. Ltd.</div>
+            <pre
+              id="importantPoint"
+            ><div >01/2023 - 06/2023                      Hyderabad,Telangana</div></pre>
+            <div class="leftDetailsDisc">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During my internship, I
+              acquired and honed current market-required skills, such as CSS,
+              Java, HTML, React, React Native, and Angular. Being physically
+              present at the company premises allowed me to interact with senior
+              professionals and gain valuable insights into each technology.
+            </div>
+            <ul>
+              <li>
+                <div class="experience">
+                  Experience at <b>HTML5 tags,</b> making web pages responsive
+                  with <b>CSS Media Queries</b> . Experience in
+                  <b
+                    >FlexBox, Grid , Z-index, containers , reusable cards ,
+                    ToolTip, Float, Overflow, Layout, Navigation, Opacity
+                    control, Hover</b
+                  >
+                  and some other concepts in CSS,Developer Tools for debugging
+                  purpose.
+                </div>
+              </li>
+
+              <li class="experience">
+                Experience in theoretical and practical knowledge in
+                <b>Java Scripts</b> in the concepts of
+                <b
+                  >variables, hoisting ,functions ,vdom,functional
+                  expressions,ES6 arrow functions,Events,Rest and Spread</b
+                >
+                Operators.
+              </li>
+
+              <li class="experience">
+                Experience in <b>ReactJs</b> with Reusable Components, JSX for
+                templating and working with
+                <b>props,state, keys, Call Backs, events </b> for state
+                management and DOM manipulation.
+              </li>
+
+              <li class="experience">
+                Experience in <b>ReactJs</b> with <b>React Routing Concepts</b>,
+                React Hooks concepts<b>
+                  -Usestate,Useeffect, UseContext,UseRef</b
+                >
+                concepts.
+              </li>
+              <li class="experience">
+                Experience in <b>ReactJs</b> with the concepts of
+                <b>Fetch Methods</b> from mock API,<b> db.JSON </b> files for
+                creating Mock data
+                <b>dynamically, HTTP requests ( Get, Post ) ,</b> usage of
+                <b>Material UI</b> in React.
+              </li>
+              <li class="experience">
+                Experience in <b>React Native</b> For Android device with JSX
+                files ,Hooks concepts ,fetch methods ,states, props ,Navigation.
+                In React Native I worked on the <b>INFINITHEISM</b> project
+                which contains landing page,timer screen, video library screen
+              </li>
+              <li class="experience">
+                Experience in <b>Git commands</b> and with the merging purpose.
+              </li>
+            </ul>
+            <div>
+              <b>Web pages that i replicated during my internship:</b>
+            </div>
+            <div>
+              <ol>
+                <li class="experience">
+                  myntra website using react:
+                  <a
+                    href="https://github.com/Rushikashreya123/myntra-website-react"
+                    >https://github.com/Rushikashreya123/myntra-website-react</a
+                  >
+                </li>
+                <li class="experience">
+                  careers-postman page using html:
+                  <a
+                    href="https://github.com/Rushikashreya123/carrers-postman-Page-"
+                    >https://github.com/Rushikashreya123/carrers-postman-Page-</a
+                  >
+                </li>
+                <li class="experience">
+                  Evelynn page using materialUI:
+                  <a
+                    href="https://github.com/Rushikashreya123/evelynn-web-page-react"
+                    >https://github.com/Rushikashreya123/evelynn-web-page-react</a
+                  >
+                </li>
+                <li class="experience">
+                  QARMA DEMO PROJECT: I worked on project components
+                  <a
+                    href="https://github.com/Rushikashreya123/qarma- project-angular"
+                    >https://github.com/Rushikashreya123/qarma- project-angular
+                  </a>
+                </li>
+                <li class="experience">
+                  Infinitheism project:
+                  <a
+                    href="https://github.com/Rushikashreya123/infinitheism-project"
+                    >https://github.com/Rushikashreya123/infinitheism-project</a
+                  >
+                </li>
+                <li class="experience">
+                  table filtering data:
+                  <a
+                    href="https://github.com/Rushikashreya123/table-data-filtering-in-react"
+                    >https://github.com/Rushikashreya123/table-data-filtering-in-react</a
+                  >
+                </li>
+              </ol>
+            </div>
+            <div>
+              <div class="heading">EDUCATION</div>
+              <div>
+                <div class="subheading">
+                  <b>B.tech,Information Technology</b>
+                </div>
+                <div class="specification">
+                  Laki Reddy Bali Reddy College Of Engineering Mylavaram, Andhra
+                  Pradesh
+                </div>
+                <div>
+                  <pre id="importantPoint">
+2019 - 2023                                      CGPA- 8.34</pre
+                  >
+                </div>
+              </div>
+              <div>
+                <div class="subheading"><b>Intermediate</b></div>
+                <div class="specification">
+                  Sri Chaitanya Junior College • Gangur , Andhra Pradesh
+                </div>
+                <div>
+                  <pre id="importantPoint">
+2017 - 2019                                      CGPA- 9.73</pre
+                  >
+                </div>
+              </div>
+              <div>
+                <div class="subheading"><b>Schooling</b></div>
+                <div class="specification">
+                  Zilla Parishad HighSchool • O.B.palle, Andhra Pradesh
+                </div>
+                <div>
+                  <pre id="importantPoint">
+2017                                              CGPA- 9.2</pre
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="vD"></div>
+        <!-- right part of the main body -->
+        <div class="rightDetails">
+          <div>
+            <div class="heading">TECHNICAL SKILLS</div>
+            <ul>
+              <li class="skillsList">
+                <b >Web Technologies :</b>
+                
+                <div class="sillsSet">
+                  <div class="skill">HTML</div>
+                  <div class="skill">CSS</div>
+                  <div class="skill">Java Script(ES6)</div>
+                  <div class="skill">SCSS</div>
+                  <div class="skill">ReactJs</div>
+                  <div class="skill">React Native</div>
+                  <div class="skill">Angular</div>
+                  <div class="skill">Material-UI IN react</div>
+                </div>
+              </li>
+              <li class="skillsList">
+                <div><b>Tools and IDEs :</b></div>
+                
+                <div class="sillsSet">
+                  <div class="skill">Visual Studio Code</div>
+                  <div class="skill">Developer Tools for debugging</div>
+                </div>
+                
+              </li>
+              <li class="skillsList">
+                <b>Operating System :</b>
+                <div class="sillsSet">
+                  <div class="skill">Windows</div>
+
+                </div>
+                
+              </li>
+              <li class="skillsList">
+  
+                <b>Libraries :</b>
+                <div class="sillsSet">
+                  <div class="skill">ReactJs</div>
+                  <div class="skill">Material-UI in react</div>
+                </div>
+                
+              </li>
+              <li class="skillsList">
+                <b>Programming Languages : </b>
+                <div class="sillsSet">
+                  <div class="skill">JavaScript</div>
+                  <div class="skill">Python</div>
+                  <div class="skill">Basics of Java</div>
+                  <div class="skill">Basics of SQL</div>
+                </div>
+                
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="heading">ACADEMIC PROJECTS</div>
+            <ul>
+              <li>
+                <div>
+                  <div class="subheading">
+                    <b>Main Project-Improving Autonomous Vehicle Driving Decisions</b>
+                  </div>
+                  <div class="experience">
+                    Proposed DDS algorithm with genetic algorithm performance is compared with existing machine
+                    learning algorithms such as RandomForest and MLP. It also shows better prediction accuracy.
+
+                  </div>
+                  
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="subheading">
+                    <b> Minor Project -Fake News Detection Using Python
+                    </b>
+                  </div>
+                  <div class="experience">
+                    Developed a machine learning model to detect fake news using Python, achieving 95% accuracy on the test dataset.Implemented a web application using Flask to deploy the Fake News Detection model on Heroku for public use. 
+
+                  </div>
+                  
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="subheading">
+                    <b> PBL project-Face Mask Detection Using Python
+
+                    </b>
+                  </div>
+                  <div class="experience">
+                    This project is used to detect face masks in the time of COVID.
+
+                  </div>
+                  
+                </div>
+              </li>
+              
+            </ul>
+
+
+          </div>
+          <div>
+            <div class="heading">CERTIFICATIONS</div>
+              <ul>
+                <li>Successfully completed <b>COURSERA</b> on Programming for Everybody (Getting Started with Python).</li>
+                <li>Successfully completed <b>NPTEL</b> online certification course on "Introduction to Programming in C".</li>
+                <li>Successfully completed  16Hrs <b>Hackathon</b>  certificate  in DIVAMI company.</li>
+              </ul>
+
+
+          </div>
+          <div>
+            <div class="heading">INTERESTS</div>
+              <div class="intrestSet">
+                <div class="intrest">playing games like Throwball,Shuttle</div>
+                <div class="intrest">watching movies</div>
+                <div class="intrest">listening to music</div>
+                <div class="intrest">singing</div>
+                <div class="intrest">Drawing</div>
+
+              </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
